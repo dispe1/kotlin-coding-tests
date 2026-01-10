@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 31 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 32 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -51,6 +51,8 @@ If it was helpful please press a star.
         - Flags | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/flags/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/Flags.kt) | Difficulty: Medium
         - Min Perimeter Rectangle | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/min_perimeter_rectangle/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/MinPerimeterRectangle.kt) | Difficulty: Medium
         - Peaks | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/Peaks.kt) | Difficulty: Medium
+    - Lesson 11: Sieve Of Eratosthenes
+        - Count Non Divisible | [Problem](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/count_non_divisible/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson11_sieve_of_eratosthenes/CountNonDivisible.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
