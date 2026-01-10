@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 10 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 11 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -24,6 +24,8 @@ If it was helpful please press a star.
         - Max Counters | [Problem](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson04_counting_elements/MaxCounters.kt) | Difficulty: Medium
         - Missing Integer | [Problem](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson04_counting_elements/MissingInteger.kt) | Difficulty: Medium
         - Perm Check | [Problem](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson04_counting_elements/PermCheck.kt) | Difficulty: Easy
+    - Lesson 05: Prefix Sums
+        - Passing Cars | [Problem](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson05_prefix_sums/PassingCars.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
