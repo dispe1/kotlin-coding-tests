@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 13 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 14 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -27,6 +27,7 @@ If it was helpful please press a star.
     - Lesson 05: Prefix Sums
         - Count Div | [Problem](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson05_prefix_sums/CountDiv.kt) | Difficulty: Medium
         - Genomic Range Query | [Problem](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson05_prefix_sums/GenomicRangeQuery.kt) | Difficulty: Medium
+        - Min Avg Two Slice | [Problem](https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson05_prefix_sums/MinAvgTwoSlice.kt) | Difficulty: Medium
         - Passing Cars | [Problem](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson05_prefix_sums/PassingCars.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
