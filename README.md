@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 5 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 6 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -18,6 +18,7 @@ If it was helpful please press a star.
     - Lesson 03: Time Complexity
         - Frog Jmp | [Problem](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson03_time_complexity/FrogJmp.kt) | Difficulty: Easy
         - Perm Missing Elem | [Problem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson03_time_complexity/PermMissingElem.kt) | Difficulty: Easy
+        - Tape Equilibrium | [Problem](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson03_time_complexity/TapeEquilibrium.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
