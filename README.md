@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 8 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 9 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -21,6 +21,7 @@ If it was helpful please press a star.
         - Tape Equilibrium | [Problem](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson03_time_complexity/TapeEquilibrium.kt) | Difficulty: Easy
     - Lesson 04: Counting Elements
         - Frog River One | [Problem](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson04_counting_elements/FrogRiverOne.kt) | Difficulty: Easy
+        - Max Counters | [Problem](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson04_counting_elements/MaxCounters.kt) | Difficulty: Medium
         - Perm Check | [Problem](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson04_counting_elements/PermCheck.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
