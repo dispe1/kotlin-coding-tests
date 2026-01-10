@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 2 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 3 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -14,6 +14,7 @@ If it was helpful please press a star.
         - Binary Gap | [Problem](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson01_iterations/BinaryGap.kt) | Difficulty: Easy
     - Lesson 02: Arrays
         - Cyclic Rotation | [Problem](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson02_arrays/CyclicRotation.kt) | Difficulty: Easy
+        - Odd Occurrences In Array | [Problem](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson02_arrays/OddOccurrencesInArray.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
