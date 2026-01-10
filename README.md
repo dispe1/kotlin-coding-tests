@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 30 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 31 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -50,6 +50,7 @@ If it was helpful please press a star.
         - Count Factors | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/CountFactors.kt) | Difficulty: Easy
         - Flags | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/flags/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/Flags.kt) | Difficulty: Medium
         - Min Perimeter Rectangle | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/min_perimeter_rectangle/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/MinPerimeterRectangle.kt) | Difficulty: Medium
+        - Peaks | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/Peaks.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
