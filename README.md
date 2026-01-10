@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 25 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 26 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -44,6 +44,7 @@ If it was helpful please press a star.
         - Equi Leader | [Problem](https://app.codility.com/programmers/lessons/8-leader/equi_leader/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson08_leader/EquiLeader.kt) | Difficulty: Easy
     - Lesson 09: Maximum Slice Problem
         - Max Profit | [Problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson09_maximum_slice_problem/MaxProfit.kt) | Difficulty: Easy
+        - Max Slice Sum | [Problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_slice_sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson09_maximum_slice_problem/MaxSliceSum.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
