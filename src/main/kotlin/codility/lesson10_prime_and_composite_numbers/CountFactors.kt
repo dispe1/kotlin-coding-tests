@@ -6,12 +6,13 @@ class CountFactors {
 
         var result = 0
         var i = 1
+        val target = N.toLong()
 
-        while (i * i < N) {
+        while (i.toLong() * i < target) {
             if (N % i == 0) result += 2
             i++
         }
-        if (i * i == N) result++
+        if (i.toLong() * i == target) result++
 
         return result
     }

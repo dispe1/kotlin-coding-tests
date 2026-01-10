@@ -37,6 +37,13 @@ class CountFactorsTest {
     }
 
     @Test
+    fun `extreme values`() {
+        assertEquals(100, solver.solution(1_000_000_000))
+        assertEquals(2, solver.solution(2_147_483_647))
+        assertEquals(135, solver.solution(2_147_395_600))
+    }
+
+    @Test
     fun `zero and negatives`() {
         assertEquals(0, solver.solution(0))
         assertEquals(0, solver.solution(-5))
