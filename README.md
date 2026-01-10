@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 20 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 21 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -37,6 +37,7 @@ If it was helpful please press a star.
     - Lesson 07: Stacks And Queues
         - Brackets | [Problem](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson07_stacks_and_queues/Brackets.kt) | Difficulty: Easy
         - Fish | [Problem](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson07_stacks_and_queues/Fish.kt) | Difficulty: Easy
+        - Nesting | [Problem](https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson07_stacks_and_queues/Nesting.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
