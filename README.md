@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 32 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 33 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -53,6 +53,7 @@ If it was helpful please press a star.
         - Peaks | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/Peaks.kt) | Difficulty: Medium
     - Lesson 11: Sieve Of Eratosthenes
         - Count Non Divisible | [Problem](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/count_non_divisible/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson11_sieve_of_eratosthenes/CountNonDivisible.kt) | Difficulty: Medium
+        - Count Semiprimes | [Problem](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/count_semiprimes/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson11_sieve_of_eratosthenes/CountSemiprimes.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
