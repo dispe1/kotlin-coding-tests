@@ -75,4 +75,26 @@ class OddOccurrencesInArrayTest {
 
         assertEquals(uniqueVal, solver.solution(arr))
     }
+
+    @Test
+    fun testMaxInputSizeWithMaxValues() {
+        // N = 1,000,001 (Max boundary is ~1,000,000)
+        // Values = 1,000,000,000 (Max value)
+        // All elements are 1,000,000,000 except one unique 7
+        val n = 1000000
+        val arr = IntArray(n + 1)
+        val maxValue = 1_000_000_000
+        val uniqueValue = 7
+
+        // Fill with pairs of max values
+        for (i in 0 until n) {
+            arr[i] = maxValue
+        }
+        // Add unique value at the end
+        arr[n] = uniqueValue
+
+        // Expected: Since n is even (1,000,000), we have 500,000 pairs of maxValue.
+        // XORing same values results in 0. So result should be uniqueValue.
+        assertEquals(uniqueValue, solver.solution(arr))
+    }
 }
