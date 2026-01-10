@@ -3,6 +3,7 @@ SOURCE_DIR = "src/main/kotlin"
 REPO_URL_BASE = "https://github.com/dispe1/kotlin-coding-tests/blob/main/"
 import os
 import re
+import sys
 
 
 def get_subdirectories(path):
@@ -46,6 +47,25 @@ def parse_metadata(file_path):
             score = line.split(":", 1)[1].strip()
 
     return url, difficulty, score
+
+
+def validate_metadata():
+    missing = []
+    for root, _, files in os.walk(SOURCE_DIR):
+        for file in files:
+            if not file.endswith(".kt"):
+                continue
+            file_path = os.path.join(root, file)
+            url, difficulty, _ = parse_metadata(file_path)
+            if not url or not difficulty or difficulty == "Unknown":
+                rel_path = os.path.relpath(file_path)
+                missing.append(rel_path)
+    if missing:
+        print("ERROR: The following Kotlin files are missing URL/difficulty metadata:")
+        for path in sorted(missing):
+            print(f"  - {path}")
+        print("Please add the metadata comment block before running generateReadme.py.")
+        sys.exit(1)
 
 
 def count_solutions():
@@ -129,5 +149,6 @@ def generate_readme():
 
 
 if __name__ == "__main__":
+    validate_metadata()
     generate_readme()
     print("README.md has been generated.")
