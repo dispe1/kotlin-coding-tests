@@ -1,3 +1,7 @@
+/**
+ * https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/flags/
+ * Difficulty: Medium
+ */
 package codility.lesson10_prime_and_composite_numbers
 
 class Flags {

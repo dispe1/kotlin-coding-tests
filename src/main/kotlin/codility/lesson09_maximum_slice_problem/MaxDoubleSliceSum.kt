@@ -1,3 +1,7 @@
+/**
+ * https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_double_slice_sum/
+ * Difficulty: Medium
+ */
 package codility.lesson09_maximum_slice_problem
 
 import kotlin.math.max

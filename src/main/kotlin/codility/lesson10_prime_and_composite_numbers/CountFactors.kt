@@ -1,3 +1,7 @@
+/**
+ * https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/
+ * Difficulty: Easy
+ */
 package codility.lesson10_prime_and_composite_numbers
 
 class CountFactors {

@@ -43,9 +43,13 @@ If it was helpful please press a star.
         - Dominator | [Problem](https://app.codility.com/programmers/lessons/8-leader/dominator/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson08_leader/Dominator.kt) | Difficulty: Easy
         - Equi Leader | [Problem](https://app.codility.com/programmers/lessons/8-leader/equi_leader/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson08_leader/EquiLeader.kt) | Difficulty: Easy
     - Lesson 09: Maximum Slice Problem
+        - Max Double Slice Sum | [Problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_double_slice_sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson09_maximum_slice_problem/MaxDoubleSliceSum.kt) | Difficulty: Medium
         - Max Profit | [Problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson09_maximum_slice_problem/MaxProfit.kt) | Difficulty: Easy
         - Max Slice Sum | [Problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_slice_sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson09_maximum_slice_problem/MaxSliceSum.kt) | Difficulty: Easy
     - Lesson 10: Prime And Composite Numbers
+        - Count Factors | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/CountFactors.kt) | Difficulty: Easy
+        - Flags | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/flags/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/Flags.kt) | Difficulty: Medium
+        - Min Perimeter Rectangle | [Problem](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/min_perimeter_rectangle/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson10_prime_and_composite_numbers/MinPerimeterRectangle.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
