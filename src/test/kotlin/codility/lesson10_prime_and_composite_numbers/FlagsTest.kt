@@ -44,4 +44,21 @@ class FlagsTest {
     fun `flat plateau no peaks`() {
         assertEquals(0, solver.solution(intArrayOf(2, 2, 2, 2)))
     }
+
+    @Test
+    fun `short arrays return zero`() {
+        assertEquals(0, solver.solution(intArrayOf(5, 3)))
+    }
+
+    @Test
+    fun `sparse distant peaks allow many flags`() {
+        val A = IntArray(32) { if (it % 4 == 1) 5 else 1 }
+        assertEquals(4, solver.solution(A))
+    }
+
+    @Test
+    fun `close peaks limited by distances`() {
+        val A = intArrayOf(0, 8, 0, 2, 0, 2, 0, 2, 0, 2, 0)
+        assertEquals(3, solver.solution(A))
+    }
 }
