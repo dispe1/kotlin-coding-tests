@@ -1,41 +1,17 @@
 # Kotlin Coding Tests
 
-Solutions to coding practice problems from various platforms, implemented in Kotlin.
+This repository contains 1 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
-## Project Structure
+If it was helpful please press a star.
 
-This project follows a standard Gradle layout with Kotlin DSL.
+[![GitHub last commit](https://img.shields.io/github/last-commit/dispe1/kotlin-coding-tests.svg)](https://github.com/dispe1/kotlin-coding-tests)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/dispe1/kotlin-coding-tests.svg)](https://github.com/dispe1/kotlin-coding-tests)
+[![GitHub repo size](https://img.shields.io/github/repo-size/dispe1/kotlin-coding-tests.svg)](https://github.com/dispe1/kotlin-coding-tests)
+[![GitHub stars](https://img.shields.io/github/stars/dispe1/kotlin-coding-tests.svg)](https://github.com/dispe1/kotlin-coding-tests)
 
-```text
-src/
-├── main/kotlin/
-│   ├── codility/     # Codility solutions
-│   ├── hackerrank/   # HackerRank solutions (organized by topic)
-│   └── leetcode/     # LeetCode solutions
-└── test/kotlin/      # Unit tests corresponding to the solutions
-```
-
-## How to Run
-
-### Prerequisites
-- JDK 11 or higher
-- IntelliJ IDEA (Recommended) or CLI
-
-### Running Tests
-You can run all tests using the Gradle wrapper:
-
-```bash
-./gradlew test
-```
-
-## Adding a New Solution
-
-1.  Create a Kotlin file in the appropriate package under `src/main/kotlin/`.
-    -   Example: `src/main/kotlin/hackerrank/algorithms/warmup/SolveMeFirst.kt`
-2.  Create a corresponding test file in `src/test/kotlin/`.
-    -   Example: `src/test/kotlin/hackerrank/algorithms/warmup/SolveMeFirstTest.kt`
-3.  Implement the solution and the test cases.
-4.  Run the test to verify.
-
-## References
-- [Original Python Solutions](https://github.com/dispe1/Hackerrank-Solutions)
+- Codility
+    - Lesson 01
+        - Binary Gap | [Problem](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson01/BinaryGap.kt) | Difficulty: Easy
+- Hackerrank
+    - Algorithms
+- Leetcode
