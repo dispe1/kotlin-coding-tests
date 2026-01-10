@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 17 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 18 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -32,6 +32,7 @@ If it was helpful please press a star.
     - Lesson 06: Sorting
         - Distinct | [Problem](https://app.codility.com/programmers/lessons/6-sorting/distinct/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson06_sorting/Distinct.kt) | Difficulty: Easy
         - Max Product Of Three | [Problem](https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson06_sorting/MaxProductOfThree.kt) | Difficulty: Easy
+        - Number Of Disc Intersections | [Problem](https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson06_sorting/NumberOfDiscIntersections.kt) | Difficulty: Medium
         - Triangle | [Problem](https://app.codility.com/programmers/lessons/6-sorting/triangle/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson06_sorting/Triangle.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
