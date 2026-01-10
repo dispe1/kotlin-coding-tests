@@ -47,4 +47,27 @@ class CyclicRotationTest {
         val result = solver.solution(intArrayOf(1, 2, 3), 4)
         assertArrayEquals(intArrayOf(3, 1, 2), result)
     }
+
+    @Test
+    fun testZeroRotation() {
+        // K = 0 -> No change
+        val result = solver.solution(intArrayOf(1, 2, 3), 0)
+        assertArrayEquals(intArrayOf(1, 2, 3), result)
+    }
+
+    @Test
+    fun testLargeRotationIndex() {
+        // N = 5, K = 12 -> 12 % 5 = 2 rotations
+        // [1, 2, 3, 4, 5] -> [4, 5, 1, 2, 3]
+        val result = solver.solution(intArrayOf(1, 2, 3, 4, 5), 12)
+        assertArrayEquals(intArrayOf(4, 5, 1, 2, 3), result)
+    }
+
+    @Test
+    fun testNegativeNumbers() {
+        // Array containing negative numbers
+        // [-1, -2, -3, -4], K = 2 -> [-3, -4, -1, -2]
+        val result = solver.solution(intArrayOf(-1, -2, -3, -4), 2)
+        assertArrayEquals(intArrayOf(-3, -4, -1, -2), result)
+    }
 }
