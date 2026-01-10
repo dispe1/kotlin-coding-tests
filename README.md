@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 15 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 16 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -31,6 +31,7 @@ If it was helpful please press a star.
         - Passing Cars | [Problem](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson05_prefix_sums/PassingCars.kt) | Difficulty: Easy
     - Lesson 06: Sorting
         - Distinct | [Problem](https://app.codility.com/programmers/lessons/6-sorting/distinct/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson06_sorting/Distinct.kt) | Difficulty: Easy
+        - Max Product Of Three | [Problem](https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson06_sorting/MaxProductOfThree.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
