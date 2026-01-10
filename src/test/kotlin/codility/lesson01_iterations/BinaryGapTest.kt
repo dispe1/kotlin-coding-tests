@@ -1,4 +1,4 @@
-package codility.lesson01
+package codility.lesson01_iterations
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test

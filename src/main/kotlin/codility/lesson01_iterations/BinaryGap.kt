@@ -2,7 +2,7 @@
  * https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
  * Difficulty: Easy
  */
-package codility.lesson01
+package codility.lesson01_iterations
 
 import kotlin.math.max
 
