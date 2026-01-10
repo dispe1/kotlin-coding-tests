@@ -10,7 +10,7 @@ If it was helpful please press a star.
 [![GitHub stars](https://img.shields.io/github/stars/dispe1/kotlin-coding-tests.svg)](https://github.com/dispe1/kotlin-coding-tests)
 
 - Codility
-    - Lesson 01_iterations
+    - Lesson 01: Iterations
         - Binary Gap | [Problem](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson01_iterations/BinaryGap.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms

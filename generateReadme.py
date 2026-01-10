@@ -35,7 +35,7 @@ def parse_metadata(file_path):
 
     url = None
     difficulty = "Unknown"
-    score = None  # Changed from 'Unknown' to None
+    score = None
 
     for line in lines:
         if line.startswith("http"):
@@ -87,8 +87,16 @@ def generate_readme():
             categories = sorted(get_subdirectories(platform_path))
             for category in categories:
                 display_category = category.capitalize()
+
+                # Format: "lesson01_iterations" -> "Lesson 01: Iterations"
                 if category.startswith("lesson"):
-                    display_category = category.replace("lesson", "Lesson ")
+                    parts = category.split("_", 1)
+                    lesson_part = parts[0].replace("lesson", "Lesson ")
+                    if len(parts) > 1:
+                        topic_part = parts[1].replace("_", " ").title()
+                        display_category = f"{lesson_part}: {topic_part}"
+                    else:
+                        display_category = lesson_part
 
                 readme.write(f"    - {display_category}\n")
 
@@ -110,8 +118,10 @@ def generate_readme():
                     ).replace("\\", "/")
                     solution_url = REPO_URL_BASE + relative_path.replace(" ", "%20")
 
-                    # Only append score if it exists
-                    score_str = f" | Score: {score}" if score else ""
+                    # Only show score for HackerRank
+                    score_str = ""
+                    if platform.lower() == "hackerrank" and score:
+                        score_str = f" | Score: {score}"
 
                     readme.write(
                         f"        - {display_name} | [Problem]({url}) | [Solution]({solution_url}) | Difficulty: {difficulty}{score_str}\n"
