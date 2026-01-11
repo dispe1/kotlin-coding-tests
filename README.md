@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 69 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 70 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -107,4 +107,5 @@ If it was helpful please press a star.
     - Two Pointers
         - 11 - Container With Most Water | [Problem](https://leetcode.com/problems/container-with-most-water/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/ContainerWithMostWater.kt) | Difficulty: Medium
         - 15 - Three Sum | [Problem](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/ThreeSum.kt) | Difficulty: Medium
+        - 16 - Three Sum Closest | [Problem](https://leetcode.com/problems/3sum-closest/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/ThreeSumClosest.kt) | Difficulty: Medium
         - 167 - Two Sum II | [Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/TwoSumII.kt) | Difficulty: Medium
