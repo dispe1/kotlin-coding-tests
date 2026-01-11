@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 54 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 55 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -81,6 +81,7 @@ If it was helpful please press a star.
     - Binary Search
         - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
     - Greedy
+        - Minimum Number Of Arrows To Burst Balloons | [Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/MinimumNumberOfArrowsToBurstBalloons.kt) | Difficulty: Medium
         - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
     - Heap
         - Top K Frequent Elements | [Problem](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/heap/TopKFrequentElements.kt) | Difficulty: Medium
