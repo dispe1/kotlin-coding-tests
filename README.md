@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 45 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 46 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -71,6 +71,8 @@ If it was helpful please press a star.
     - Lesson 16: Greedy Algorithms
         - Max Nonoverlapping Segments | [Problem](https://app.codility.com/programmers/lessons/16-greedy_algorithms/max_nonoverlapping_segments/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson16_greedy_algorithms/MaxNonoverlappingSegments.kt) | Difficulty: Easy
         - Tie Ropes | [Problem](https://app.codility.com/programmers/lessons/16-greedy_algorithms/tie_ropes/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson16_greedy_algorithms/TieRopes.kt) | Difficulty: Easy
+    - Lesson 17: Dynamic Programming
+        - Number Solitaire | [Problem](https://app.codility.com/programmers/lessons/17-dynamic_programming/number_solitaire/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson17_dynamic_programming/NumberSolitaire.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
