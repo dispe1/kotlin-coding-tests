@@ -11,11 +11,11 @@ class AbsDistinct {
         var left = 0
         var right = A.size - 1
         var count = 0
-        var lastAbs = -1
+        var lastAbs = Long.MIN_VALUE
 
         while (left <= right) {
-            val leftAbs = abs(A[left])
-            val rightAbs = abs(A[right])
+            val leftAbs = abs(A[left].toLong())
+            val rightAbs = abs(A[right].toLong())
 
             val current = when {
                 leftAbs > rightAbs -> {

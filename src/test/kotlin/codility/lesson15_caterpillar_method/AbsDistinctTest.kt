@@ -34,4 +34,10 @@ class AbsDistinctTest {
         val A = intArrayOf(-3, -3, -2, -2, 2, 2, 3, 3)
         assertEquals(2, solver.solution(A))
     }
+
+    @Test
+    fun `handles int min overflow`() {
+        val A = intArrayOf(Int.MIN_VALUE, -1, 0, 1)
+        assertEquals(3, solver.solution(A))
+    }
 }
