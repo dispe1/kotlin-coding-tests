@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 62 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 63 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -84,6 +84,7 @@ If it was helpful please press a star.
     - Dynamic Programming
         - 53 - Maximum Subarray | [Problem](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/dynamic_programming/MaximumSubarray.kt) | Difficulty: Medium
     - Greedy
+        - 55 - Jump Game | [Problem](https://leetcode.com/problems/jump-game/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/JumpGame.kt) | Difficulty: Medium
         - 452 - Minimum Number Of Arrows To Burst Balloons | [Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/MinimumNumberOfArrowsToBurstBalloons.kt) | Difficulty: Medium
         - 435 - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
     - Heap
