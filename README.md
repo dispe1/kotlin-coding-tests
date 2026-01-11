@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 66 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 67 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -100,6 +100,7 @@ If it was helpful please press a star.
     - Stack
         - 84 - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
         - 496 - Next Greater Element I | [Problem](https://leetcode.com/problems/next-greater-element-i/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/NextGreaterElementI.kt) | Difficulty: Easy
+        - 503 - Next Greater Element II | [Problem](https://leetcode.com/problems/next-greater-element-ii/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/NextGreaterElementII.kt) | Difficulty: Medium
         - 739 - Daily Temperatures | [Problem](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/DailyTemperatures.kt) | Difficulty: Medium
     - Two Pointers
         - 11 - Container With Most Water | [Problem](https://leetcode.com/problems/container-with-most-water/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/ContainerWithMostWater.kt) | Difficulty: Medium
