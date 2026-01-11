@@ -4,6 +4,7 @@ REPO_URL_BASE = "https://github.com/dispe1/kotlin-coding-tests/blob/main/"
 import os
 import re
 import sys
+from urllib.parse import urlparse
 
 
 def get_subdirectories(path):
@@ -15,21 +16,12 @@ def get_kotlin_files(path):
 
 
 def parse_metadata(file_path):
-    """
-    Parses the top comments of the Kotlin file to extract metadata.
-    Expected format:
-    /**
-     * <URL>
-     * Difficulty: <Difficulty>
-     * Score: <Score>
-     */
-    """
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
     match = re.search(r"/\*\*(.*?)\*/", content, re.DOTALL)
     if not match:
-        return None, None, None
+        return None, None, None, None
 
     comment_block = match.group(1)
     lines = [line.strip().strip("*").strip() for line in comment_block.split("\n")]
@@ -37,16 +29,19 @@ def parse_metadata(file_path):
     url = None
     difficulty = "Unknown"
     score = None
+    problem_id = None
 
     for line in lines:
         if line.startswith("http"):
             url = line
+        elif line.lower().startswith("problem id:"):
+            problem_id = line.split(":", 1)[1].strip()
         elif line.lower().startswith("difficulty:"):
             difficulty = line.split(":", 1)[1].strip()
         elif line.lower().startswith("score:"):
             score = line.split(":", 1)[1].strip()
 
-    return url, difficulty, score
+    return url, difficulty, score, problem_id
 
 
 def validate_metadata():
@@ -56,7 +51,7 @@ def validate_metadata():
             if not file.endswith(".kt"):
                 continue
             file_path = os.path.join(root, file)
-            url, difficulty, _ = parse_metadata(file_path)
+            url, difficulty, _, _ = parse_metadata(file_path)
             if not url or not difficulty or difficulty == "Unknown":
                 rel_path = os.path.relpath(file_path)
                 missing.append(rel_path)
@@ -75,6 +70,16 @@ def count_solutions():
             if file.endswith(".kt"):
                 count += 1
     return count
+
+
+def extract_slug(url: str | None) -> str | None:
+    if not url:
+        return None
+    parsed = urlparse(url)
+    path = parsed.path.rstrip("/")
+    if not path:
+        return None
+    return path.split("/")[-1]
 
 
 def generate_readme():
@@ -125,7 +130,7 @@ def generate_readme():
 
                 for file in files:
                     file_path = os.path.join(category_path, file)
-                    url, difficulty, score = parse_metadata(file_path)
+                    url, difficulty, score, problem_id = parse_metadata(file_path)
 
                     if not url:
                         continue
@@ -137,6 +142,9 @@ def generate_readme():
                         r"(?<=[A-Z])(?=[A-Z][a-z])", " ", display_name
                     )
                     display_name = display_name.strip()
+
+                    if platform.lower() == "leetcode" and problem_id:
+                        display_name = f"{display_name} (LC {problem_id})"
 
                     relative_path = os.path.join(
                         SOURCE_DIR, platform, category, file

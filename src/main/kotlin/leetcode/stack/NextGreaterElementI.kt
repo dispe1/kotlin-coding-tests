@@ -1,5 +1,6 @@
 /**
  * https://leetcode.com/problems/next-greater-element-i/
+ * Problem ID: 496
  * Difficulty: Easy
  */
 package leetcode.stack
