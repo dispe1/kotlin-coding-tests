@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 63 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 64 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -80,6 +80,7 @@ If it was helpful please press a star.
         - 121 - Best Time To Buy And Sell Stock | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/array/BestTimeToBuyAndSellStock.kt) | Difficulty: Easy
     - Binary Search
         - 410 - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
+        - 875 - Koko Eating Bananas | [Problem](https://leetcode.com/problems/koko-eating-bananas/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/KokoEatingBananas.kt) | Difficulty: Medium
         - 1011 - Capacity To Ship Packages Within D Days | [Problem](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/CapacityToShipPackagesWithinDDays.kt) | Difficulty: Medium
     - Dynamic Programming
         - 53 - Maximum Subarray | [Problem](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/dynamic_programming/MaximumSubarray.kt) | Difficulty: Medium
