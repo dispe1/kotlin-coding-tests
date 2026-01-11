@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 49 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 50 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -80,5 +80,7 @@ If it was helpful please press a star.
         - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
     - Greedy
         - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
+    - Sliding_window
+        - Minimum Size Subarray Sum | [Problem](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/MinimumSizeSubarraySum.kt) | Difficulty: Medium
     - Stack
         - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
