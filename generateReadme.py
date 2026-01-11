@@ -126,12 +126,28 @@ def generate_readme():
                 readme.write(f"    - {display_category}\n")
 
                 category_path = os.path.join(platform_path, category)
-                files = sorted(get_kotlin_files(category_path))
+                files = get_kotlin_files(category_path)
 
+                file_entries = []
                 for file in files:
                     file_path = os.path.join(category_path, file)
                     url, difficulty, score, problem_id = parse_metadata(file_path)
+                    file_entries.append((file, url, difficulty, score, problem_id))
 
+                if platform.lower() == "leetcode":
+
+                    def lc_sort_key(entry):
+                        pid = entry[4]
+                        try:
+                            return int(pid)
+                        except (TypeError, ValueError):
+                            return 1_000_000_000
+
+                    file_entries.sort(key=lc_sort_key)
+                else:
+                    file_entries.sort(key=lambda e: e[0])
+
+                for file, url, difficulty, score, problem_id in file_entries:
                     if not url:
                         continue
 
