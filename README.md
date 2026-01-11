@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 59 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 60 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -94,6 +94,7 @@ If it was helpful please press a star.
     - Sliding Window
         - Minimum Size Subarray Sum | [Problem](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/MinimumSizeSubarraySum.kt) | Difficulty: Medium
     - Stack
+        - Daily Temperatures | [Problem](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/DailyTemperatures.kt) | Difficulty: Medium
         - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
     - Two Pointers
         - Three Sum | [Problem](https://leetcode.com/problems/3sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/ThreeSum.kt) | Difficulty: Medium
