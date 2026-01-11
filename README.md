@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 57 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 58 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -80,6 +80,8 @@ If it was helpful please press a star.
         - Best Time To Buy And Sell Stock | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/array/BestTimeToBuyAndSellStock.kt) | Difficulty: Easy
     - Binary Search
         - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
+    - Dynamic Programming
+        - Maximum Subarray | [Problem](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/dynamic_programming/MaximumSubarray.kt) | Difficulty: Medium
     - Greedy
         - Minimum Number Of Arrows To Burst Balloons | [Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/MinimumNumberOfArrowsToBurstBalloons.kt) | Difficulty: Medium
         - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
