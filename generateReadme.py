@@ -106,7 +106,7 @@ def generate_readme():
 
             categories = sorted(get_subdirectories(platform_path))
             for category in categories:
-                display_category = category.capitalize()
+                display_category = category.replace("_", " ").title()
 
                 # Format: "lesson01_iterations" -> "Lesson 01: Iterations"
                 if category.startswith("lesson"):
@@ -131,7 +131,12 @@ def generate_readme():
                         continue
 
                     solution_name = file.replace(".kt", "")
-                    display_name = re.sub(r"(\w)([A-Z])", r"\1 \2", solution_name)
+                    display_name = solution_name
+                    display_name = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", display_name)
+                    display_name = re.sub(
+                        r"(?<=[A-Z])(?=[A-Z][a-z])", " ", display_name
+                    )
+                    display_name = display_name.strip()
 
                     relative_path = os.path.join(
                         SOURCE_DIR, platform, category, file

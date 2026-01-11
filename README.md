@@ -78,17 +78,17 @@ If it was helpful please press a star.
 - Leetcode
     - Array
         - Best Time To Buy And Sell Stock | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/array/BestTimeToBuyAndSellStock.kt) | Difficulty: Easy
-    - Binary_search
+    - Binary Search
         - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
     - Greedy
         - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
     - Heap
-        - Top KFrequent Elements | [Problem](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/heap/TopKFrequentElements.kt) | Difficulty: Medium
-    - Prefix_sum
+        - Top K Frequent Elements | [Problem](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/heap/TopKFrequentElements.kt) | Difficulty: Medium
+    - Prefix Sum
         - Subarray Sum Equals K | [Problem](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/prefix_sum/SubarraySumEqualsK.kt) | Difficulty: Medium
-    - Sliding_window
+    - Sliding Window
         - Minimum Size Subarray Sum | [Problem](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/MinimumSizeSubarraySum.kt) | Difficulty: Medium
     - Stack
         - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
-    - Two_pointers
+    - Two Pointers
         - Two Sum II | [Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/TwoSumII.kt) | Difficulty: Medium
