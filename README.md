@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 39 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 40 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -63,6 +63,8 @@ If it was helpful please press a star.
     - Lesson 14: Binary Search Algorithm
         - Min Max Division | [Problem](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/min_max_division/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson14_binary_search_algorithm/MinMaxDivision.kt) | Difficulty: Medium
         - Nailing Planks | [Problem](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/nailing_planks/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson14_binary_search_algorithm/NailingPlanks.kt) | Difficulty: Medium
+    - Lesson 15: Caterpillar Method
+        - Abs Distinct | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/abs_distinct/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/AbsDistinct.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
