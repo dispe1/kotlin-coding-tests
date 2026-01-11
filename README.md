@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 53 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 54 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -90,3 +90,5 @@ If it was helpful please press a star.
         - Minimum Size Subarray Sum | [Problem](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/MinimumSizeSubarraySum.kt) | Difficulty: Medium
     - Stack
         - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
+    - Two_pointers
+        - Two Sum II | [Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/two_pointers/TwoSumII.kt) | Difficulty: Medium
