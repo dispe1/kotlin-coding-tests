@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 51 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 52 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -80,6 +80,8 @@ If it was helpful please press a star.
         - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
     - Greedy
         - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
+    - Heap
+        - Top KFrequent Elements | [Problem](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/heap/TopKFrequentElements.kt) | Difficulty: Medium
     - Prefix_sum
         - Subarray Sum Equals K | [Problem](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/prefix_sum/SubarraySumEqualsK.kt) | Difficulty: Medium
     - Sliding_window
