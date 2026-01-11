@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 37 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 38 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -60,6 +60,8 @@ If it was helpful please press a star.
     - Lesson 13: Fibonacci Numbers
         - Fib Frog | [Problem](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/fib_frog/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson13_fibonacci_numbers/FibFrog.kt) | Difficulty: Medium
         - Ladder | [Problem](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/ladder/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson13_fibonacci_numbers/Ladder.kt) | Difficulty: Medium
+    - Lesson 14: Binary Search Algorithm
+        - Min Max Division | [Problem](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/min_max_division/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson14_binary_search_algorithm/MinMaxDivision.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
