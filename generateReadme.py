@@ -144,7 +144,7 @@ def generate_readme():
                     display_name = display_name.strip()
 
                     if platform.lower() == "leetcode" and problem_id:
-                        display_name = f"{display_name} (LC {problem_id})"
+                        display_name = f"{problem_id}. {display_name}"
 
                     relative_path = os.path.join(
                         SOURCE_DIR, platform, category, file
