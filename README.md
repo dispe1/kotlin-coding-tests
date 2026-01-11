@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 36 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 37 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -59,6 +59,7 @@ If it was helpful please press a star.
         - Common Prime Divisors | [Problem](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/common_prime_divisors/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson12_euclidean_algorithm/CommonPrimeDivisors.kt) | Difficulty: Medium
     - Lesson 13: Fibonacci Numbers
         - Fib Frog | [Problem](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/fib_frog/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson13_fibonacci_numbers/FibFrog.kt) | Difficulty: Medium
+        - Ladder | [Problem](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/ladder/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson13_fibonacci_numbers/Ladder.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
