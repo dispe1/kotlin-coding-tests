@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 47 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 48 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -76,5 +76,7 @@ If it was helpful please press a star.
 - Hackerrank
     - Algorithms
 - Leetcode
+    - Binary_search
+        - Split Array Largest Sum | [Problem](https://leetcode.com/problems/split-array-largest-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/binary_search/SplitArrayLargestSum.kt) | Difficulty: Hard
     - Stack
         - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
