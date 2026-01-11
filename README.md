@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 40 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 41 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -65,6 +65,7 @@ If it was helpful please press a star.
         - Nailing Planks | [Problem](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/nailing_planks/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson14_binary_search_algorithm/NailingPlanks.kt) | Difficulty: Medium
     - Lesson 15: Caterpillar Method
         - Abs Distinct | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/abs_distinct/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/AbsDistinct.kt) | Difficulty: Medium
+        - Count Distinct Slices | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/count_distinct_slices/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/CountDistinctSlices.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
