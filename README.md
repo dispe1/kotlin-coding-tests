@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 42 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 43 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -67,6 +67,7 @@ If it was helpful please press a star.
         - Abs Distinct | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/abs_distinct/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/AbsDistinct.kt) | Difficulty: Medium
         - Count Distinct Slices | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/count_distinct_slices/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/CountDistinctSlices.kt) | Difficulty: Medium
         - Count Triangles | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/count_triangles/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/CountTriangles.kt) | Difficulty: Medium
+        - Min Abs Sum Of Two | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/min_abs_sum_of_two/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/MinAbsSumOfTwo.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
