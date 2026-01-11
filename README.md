@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 34 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 35 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -56,6 +56,7 @@ If it was helpful please press a star.
         - Count Semiprimes | [Problem](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/count_semiprimes/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson11_sieve_of_eratosthenes/CountSemiprimes.kt) | Difficulty: Medium
     - Lesson 12: Euclidean Algorithm
         - Chocolates By Numbers | [Problem](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/chocolates_by_numbers/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson12_euclidean_algorithm/ChocolatesByNumbers.kt) | Difficulty: Easy
+        - Common Prime Divisors | [Problem](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/common_prime_divisors/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson12_euclidean_algorithm/CommonPrimeDivisors.kt) | Difficulty: Medium
 - Hackerrank
     - Algorithms
 - Leetcode
