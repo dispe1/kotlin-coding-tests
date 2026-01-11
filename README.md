@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 44 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 45 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -70,6 +70,7 @@ If it was helpful please press a star.
         - Min Abs Sum Of Two | [Problem](https://app.codility.com/programmers/lessons/15-caterpillar_method/min_abs_sum_of_two/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson15_caterpillar_method/MinAbsSumOfTwo.kt) | Difficulty: Medium
     - Lesson 16: Greedy Algorithms
         - Max Nonoverlapping Segments | [Problem](https://app.codility.com/programmers/lessons/16-greedy_algorithms/max_nonoverlapping_segments/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson16_greedy_algorithms/MaxNonoverlappingSegments.kt) | Difficulty: Easy
+        - Tie Ropes | [Problem](https://app.codility.com/programmers/lessons/16-greedy_algorithms/tie_ropes/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/codility/lesson16_greedy_algorithms/TieRopes.kt) | Difficulty: Easy
 - Hackerrank
     - Algorithms
 - Leetcode
