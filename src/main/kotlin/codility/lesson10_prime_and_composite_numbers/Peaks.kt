@@ -1,9 +1,8 @@
-package codility.lesson10_prime_and_composite_numbers
-
 /**
  * https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/
  * Difficulty: Medium
  */
+package codility.lesson10_prime_and_composite_numbers
 
 import kotlin.math.max
 
