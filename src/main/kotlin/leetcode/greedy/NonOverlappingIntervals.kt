@@ -8,7 +8,7 @@ class NonOverlappingIntervals {
     fun eraseOverlapIntervals(intervals: Array<IntArray>): Int {
         if (intervals.isEmpty()) return 0
 
-        intervals.sortWith(compareBy({ it[1] }))
+        intervals.sortWith(compareBy { it[1] })
 
         var removed = 0
         var prevEnd = intervals[0][1]
