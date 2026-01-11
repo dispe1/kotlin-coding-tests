@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 55 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 56 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -84,6 +84,7 @@ If it was helpful please press a star.
         - Minimum Number Of Arrows To Burst Balloons | [Problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/MinimumNumberOfArrowsToBurstBalloons.kt) | Difficulty: Medium
         - Non Overlapping Intervals | [Problem](https://leetcode.com/problems/non-overlapping-intervals/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/greedy/NonOverlappingIntervals.kt) | Difficulty: Medium
     - Heap
+        - Kth Largest Element In An Array | [Problem](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/heap/KthLargestElementInAnArray.kt) | Difficulty: Medium
         - Top K Frequent Elements | [Problem](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/heap/TopKFrequentElements.kt) | Difficulty: Medium
     - Prefix Sum
         - Subarray Sum Equals K | [Problem](https://leetcode.com/problems/subarray-sum-equals-k/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/prefix_sum/SubarraySumEqualsK.kt) | Difficulty: Medium
