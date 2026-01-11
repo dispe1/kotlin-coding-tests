@@ -1,6 +1,6 @@
 # Kotlin Coding Tests
 
-This repository contains 65 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
+This repository contains 66 solutions to coding practice problems (Codility, HackerRank, LeetCode) implemented in Kotlin.
 
 If it was helpful please press a star.
 
@@ -96,6 +96,7 @@ If it was helpful please press a star.
     - Sliding Window
         - 209 - Minimum Size Subarray Sum | [Problem](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/MinimumSizeSubarraySum.kt) | Difficulty: Medium
         - 904 - Fruit Into Baskets | [Problem](https://leetcode.com/problems/fruit-into-baskets/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/FruitIntoBaskets.kt) | Difficulty: Medium
+        - 1004 - Max Consecutive Ones III | [Problem](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/sliding_window/MaxConsecutiveOnesIII.kt) | Difficulty: Medium
     - Stack
         - 84 - Largest Rectangle In Histogram | [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/LargestRectangleInHistogram.kt) | Difficulty: Hard
         - 496 - Next Greater Element I | [Problem](https://leetcode.com/problems/next-greater-element-i/) | [Solution](https://github.com/dispe1/kotlin-coding-tests/blob/main/src/main/kotlin/leetcode/stack/NextGreaterElementI.kt) | Difficulty: Easy
